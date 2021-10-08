@@ -1,0 +1,36 @@
+x = (504.67)
+y = (1209.54)
+z = x * y
+
+print ("\033[1;32;40m")
+
+print ("x = {} = {} = {} \n". format (x, int(x), complex(x))+
+       "y = {} = {} = {} \n". format (y, int(y), complex(y))+
+       "z = {} = {} = {} \n". format (z, int(z), complex(z)))
+
+print ("x = "+str(x)+ " = "+str(int(x))+ " = "+str(complex(x))+ '\n'
+       "y = "+str(y)+ " = "+str(int(y))+ " = "+str(complex(y))+ '\n'
+       "z = "+str(z)+ " = "+str(int(z))+ " = "+str(complex(z))+ '\n')
+
+print ("x =", (x), end='')
+print (" =", int(x), end='')
+print (" =", complex(x))
+print ("y =", (y), end='')
+print (" =", int(y), end='')
+print (" =", complex(y))
+print ("z =", (z), end='')
+print (" =", int(z), end='')
+print (" =", complex(z), '\n')
+
+print ("x =", (x), '=', int(x), '=', complex(x), '\n'
+       "y =", (y), '=', int(y), '=', complex(y), '\n'
+       "z =", (z), '=', int(z), '=', complex(z), '\n')
+
+print ("Jumlah x + z =", (x + z), '\n'
+       "Jumlah x / z =", (x / z), '\n')
+
+print ("x < y = {}" '\n' 
+       "x > y = {}" '\n' 
+       "x = y = {}". format ((x < y), (x > y), (x == y)))
+
+print ("\033[1;32;40m")
